@@ -1,0 +1,77 @@
+/*
+Here are the following links I used as reference to help with styling:
+https://stackoverflow.com/questions/28977320/how-do-i-get-the-bullets-of-an-unordered-list-to-center-with-the-text
+https://www.w3schools.com/colors/colors_names.asp 
+https://www.w3schools.com/css/css_font_size.asp
+https://www.shecodes.io/athena/105867-how-to-underline-text-with-css#:~:text=To%20underline%20text%20with%20CSS%2C%20you%20can%20use%20the%20text,an%20underline%20to%20the%20text.
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-style 
+*/
+
+*{
+    background-color: AntiqueWhite;
+  }
+  html{
+    border:15px dotted;
+    border-color:rgb(255, 177, 193);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    text-align:center;
+    font:Garamond;
+    color:crimson;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 2px
+  
+  }
+  img{
+    width: 50%
+  }
+  h4{
+    color:palevioletred;
+    font:Garamond;
+    font-size: 25px;
+    text-align:center;
+    margin-right: 100px;
+   
+  }
+  #classes{
+    list-style-position: inside;
+    font-size: 18px;
+  }
+  
+  .text{
+    color:indianred;
+    text-align:center;
+    font:Georgia;
+    font-size: 18px;
+  
+  }
+  .skills {
+    display:flex;
+    flex-direction: row;
+    font-size: 18px;
+  }
+  #left_section{
+    display:flex;
+    flex-direction: column;
+    margin-left: 225px;
+    margin-right: 100px;
+    list-style-position: outside;
+  
+  }
+  #right_section{
+    display:flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 225px;
+    list-style-position: outside;
+  }
+  .bullets{
+    color:indianred;
+    font:Georgia;
+    font-size: 19px;
+  }
